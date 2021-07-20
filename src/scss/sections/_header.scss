@@ -1,0 +1,38 @@
+.header {
+    padding: 53px 0 20px 0;
+}
+.header__inner{
+    @include flex (space-between,center);
+}
+.header__login {
+    display: flex;
+    align-items: center;
+}
+.user {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+.user__content {
+    display: flex;
+    flex-direction: column;
+    color: $color-primary;
+}
+.user__greeting{
+    font-size: 14px;
+}
+.user__name{
+    font-weight: 700;
+    line-height: 1.3em;
+}
+.user__img {
+    margin-right: 10px;
+}
+.dropdown {
+    width: 30px;
+    height: 30px;
+    border: 1px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

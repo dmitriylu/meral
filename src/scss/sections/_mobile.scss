@@ -1,0 +1,11 @@
+.mabile-status{
+    display: none;
+    padding-top: 14px;
+}
+.mabile-status__inner{
+    @include flex (space-between,center);
+}
+.mobile-status__time {
+    font-size: 15px;
+    font-weight: 600;
+}
